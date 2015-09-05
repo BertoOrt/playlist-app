@@ -10,8 +10,20 @@
     {{range .moreStyles}}
       <link rel="stylesheet" type="text/css" href="/public/{{.}}">
     {{end}}
+    <link rel="stylesheet" type="text/css" href="/public/css/style.css">
     {{range .moreScripts}}
       <script src="/public/{{.}}" type="text/javascript" charset="utf-8"></script>
     {{end}}
+    <script src="/public/js/app.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="hero-text">
+            <h1>Go-Playlist</h1>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </header>

@@ -1,0 +1,15 @@
+.test {
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1%;
+  } thead {
+  background-color: #A9F16C;
+  } tr:nth-child(even) {
+  background-color: #D4D4D4;
+}

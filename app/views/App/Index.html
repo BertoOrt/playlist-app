@@ -1,16 +1,85 @@
-{{set . "title" "Home"}}
+{{set . "title" "Go-Playlist"}}
 {{template "header.html" .}}
 
-<header class="hero-unit" style="background-color:#A9F16C">
-  <div class="container">
-    <div class="row">
-      <div class="hero-text">
-        <h1>It works!</h1>
-        <p></p>
-      </div>
-    </div>
+<div class="container">
+  <div class="row">
+    <table>
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            Track Name
+          </th>
+          <th>
+            Length
+          </th>
+          <th>
+            Artist
+          </th>
+          <th>
+            Album
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            Hotel
+          </td>
+          <td>
+            3:45
+          </td>
+          <td>
+            The Antlers
+          </td>
+          <td>
+            Palace
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2
+          </td>
+          <td>
+            Slow Show
+          </td>
+          <td>
+            3:01
+          </td>
+          <td>
+            The National
+          </td>
+          <td>
+            Boxer
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3
+          </td>
+          <td>
+            Toxicity
+          </td>
+          <td>
+            2:40
+          </td>
+          <td>
+            System of a Down
+          </td>
+          <td>
+            Toxicity
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="/search" class='btn'> Search</a>
   </div>
-</header>
+</div>
 
 <div class="container">
   <div class="row">
