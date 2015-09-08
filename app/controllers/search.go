@@ -9,3 +9,7 @@ type Search struct {
 func (c Search) Index() revel.Result {
 	return c.Render()
 }
+
+func (c Search) addSong() revel.Result {
+	return c.Render()
+}
